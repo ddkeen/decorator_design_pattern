@@ -1,6 +1,11 @@
 import java.text.NumberFormat;
 import java.util.Locale;
 
+/**
+ * Driver for the Vehicle class and all its children
+ * Creates 3 types of Vehicles and prints their descriptions and costs
+ * @author portiaportia
+ */
 public class CarLot {
 	
 	public CarLot() {}
