@@ -1,3 +1,3 @@
-public class Compact {
+public class Compact extends Vehicle {
     
 }

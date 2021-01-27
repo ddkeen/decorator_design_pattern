@@ -1,3 +1,3 @@
-public class Paint {
+public class Paint extends VehicleDecorator {
     
 }

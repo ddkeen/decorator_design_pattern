@@ -1,3 +1,3 @@
-public class SoundSystem {
+public class SoundSystem extends VehicleDecorator {
     
 }

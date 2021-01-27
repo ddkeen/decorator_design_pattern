@@ -1,3 +1,3 @@
-public class SportsCar {
+public class SportsCar extends Vehicle{
     
 }

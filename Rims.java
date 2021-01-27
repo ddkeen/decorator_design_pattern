@@ -1,3 +1,3 @@
-public class Rims {
+public class Rims extends VehicleDecorator{
     
 }
