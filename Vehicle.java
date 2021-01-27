@@ -1,9 +1,9 @@
 public abstract class Vehicle {
 
-    protected String descritopn;
+    protected String description;
 
     public String toString() {
-        return descritopn;
+        return description;
     }
 
     public abstract double getCost();
