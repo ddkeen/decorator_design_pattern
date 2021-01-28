@@ -7,6 +7,8 @@ public class Rims extends VehicleDecorator{
 
     private Vehicle vehicle;
 
+    private static final double RIM_COST = 200;
+
     /**
      * Takes in a Vehicle object and makes it the Rims' object's private instance variable so it's description and cost can be altered
      * @param vehicle the vehicle to be altered
@@ -28,7 +30,7 @@ public class Rims extends VehicleDecorator{
      * @return a double representation of the cost of the changed Vehicle
      */
     public double getCost() {
-        return vehicle.getCost() + 200;
+        return vehicle.getCost() + RIM_COST;
     }
     
 }

@@ -7,6 +7,9 @@ public class Paint extends VehicleDecorator {
 
     private Vehicle vehicle;
 
+    private static final double PAINT_COST = 150;
+
+
     /**
      * Takes in a Vehicle object and makes it the paint object's private instance variable so it's description and cost can be altered
      * @param vehicle the vehicle to be altered
@@ -28,7 +31,7 @@ public class Paint extends VehicleDecorator {
      * @return a double representation of the cost of the changed Vehicle
      */
     public double getCost() {
-        return vehicle.getCost() + 150;
+        return vehicle.getCost() + PAINT_COST;
     }
     
 }

@@ -4,6 +4,8 @@
  */
 public class Sedan extends Vehicle {
 
+    private static final double SEDAN_COST = 20000;
+
     /**
      * Makes a string representation of a Sedan
      */
@@ -16,6 +18,6 @@ public class Sedan extends Vehicle {
      * @return the cost as a double
      */
     public double getCost() {
-        return 20000;
+        return SEDAN_COST;
     }
 }

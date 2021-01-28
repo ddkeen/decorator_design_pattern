@@ -7,6 +7,8 @@ public class SoundSystem extends VehicleDecorator {
 
     private Vehicle vehicle;
 
+    private static final double SOUND_COST = 350;
+
     /**
      * Takes in a Vehicle object and makes it the SoundSystem object's private instance variable so it's description and cost can be altered
      * @param vehicle the vehicle to be altered
@@ -28,7 +30,7 @@ public class SoundSystem extends VehicleDecorator {
      * @return a double representation of the cost of the changed Vehicle
      */
     public double getCost() {
-        return vehicle.getCost() + 350;
+        return vehicle.getCost() + SOUND_COST;
     }
     
 }

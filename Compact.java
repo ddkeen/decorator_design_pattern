@@ -4,6 +4,8 @@
  */
 public class Compact extends Vehicle {
 
+    private static final double COMPACT_COST = 15000;
+
     /**
      * Makes a string representation of a Compact car
      */
@@ -16,6 +18,6 @@ public class Compact extends Vehicle {
      * @return the cost as a double
      */
     public double getCost() {
-        return 15000;
+        return COMPACT_COST;
     }
 }
